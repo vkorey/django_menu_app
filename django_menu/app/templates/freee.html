@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Django app menu{% endblock %}
+{% block content %}
+<h1>Free 1 Page</h1>
+{% load menu_tags %}
+{% draw_menu 'main_menu' %}
+{% endblock %}
